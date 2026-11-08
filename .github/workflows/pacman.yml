@@ -1,0 +1,33 @@
+# Gera o Pac-Man que come o gráfico de contribuições do perfil
+# (abozanona/pacman-contribution-graph) e salva o SVG na branch output.
+name: Gerar o Pac-Man do perfil
+
+on:
+  schedule: # roda sozinho todo dia (meia-noite em Brasília)
+    - cron: '0 3 * * *'
+  workflow_dispatch: # permite rodar na mão pela aba Actions
+  push: # roda a cada mudança na main
+    branches:
+      - main
+
+jobs:
+  generate:
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: Gera o SVG do Pac-Man
+        uses: abozanona/pacman-contribution-graph@main
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          games: 'pacman'
+
+      - name: Envia o SVG para a branch output
+        uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
