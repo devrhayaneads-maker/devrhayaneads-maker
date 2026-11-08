@@ -47,3 +47,11 @@
   <a href="https://www.linkedin.com/in/rhayane-freitas-95297a3a5/"><img alt="LinkedIn" title="LinkedIn" src="https://custom-icon-badges.demolab.com/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin-white&logoColor=white" /></a>
   <a href="mailto:devrhayaneads@gmail.com"><img alt="E-mail" title="E-mail" src="https://img.shields.io/badge/E--mail-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
 </p>
+
+---
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/devrhayaneads-maker/devrhayaneads-maker/output/pacman-contribution-graph-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/devrhayaneads-maker/devrhayaneads-maker/output/pacman-contribution-graph.svg">
+  <img alt="Pac-Man comendo o gráfico de contribuições" src="https://raw.githubusercontent.com/devrhayaneads-maker/devrhayaneads-maker/output/pacman-contribution-graph.svg">
+</picture>
