@@ -3,8 +3,8 @@
 **`Desenvolvedora Full Stack`**
 
 - 🎓 Estudante de Análise e Desenvolvimento de Sistemas
-- 💻 Desenvolvedora Full Stack: React, Node.js e MySQL
-- 📱 Também programo para mobile com Flutter
+- 💻 Desenvolvedora Full Stack
+- 📱 Desenvolvedora Mobile
 
 <p align="left">
   <a href="https://github.com/devrhayaneads-maker?tab=followers"><img alt="Seguidores" title="Me siga no GitHub" src="https://custom-icon-badges.demolab.com/github/followers/devrhayaneads-maker?color=bd93f9&labelColor=6272a4&style=for-the-badge&logo=github&label=Seguidores&logoColor=white" /></a>
